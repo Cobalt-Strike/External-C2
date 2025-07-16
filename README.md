@@ -11,6 +11,7 @@ Cobalt Strike’s External Command and Control (External C2) interface allows th
 
 The External C2 system consists of a third-party controller, a third-party client, and the External C2 service provided by Cobalt Strike. The third-party client and thirdparty servers are components external to Cobalt Strike. The third-party may develop these components in a language of their choosing.
 
+<img width="3258" height="2161" alt="ExtC2-diagram" src="https://github.com/user-attachments/assets/e982fd7c-7072-405c-8a4a-b51c941894be" />
 
 The third-party controller connects to Cobalt Strike’s External C2 service. This service serves a payload stage, sends tasks for, and receives responses from a Beacon session. The third-party client injects a Beacon payload stage into memory, reads responses from a Beacon session, and sends tasks to it. The third-party controller and third-party client communicate the payload stage, tasks, and responses to each other.
 
@@ -126,7 +127,7 @@ The rest of the External C2 life cycle is a repeat of these steps. Read a frame 
   </tbody>
 </table>
 
-## How to compile
+## Setup
 
 1. Make sure that Mingw-w64 (including mingw-w64-binutils) has been installed.
 2. Run the build command:
