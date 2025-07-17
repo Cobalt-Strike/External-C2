@@ -23,7 +23,7 @@ The External C2 server and the SMB Beacon use the same format for their frames. 
 All communication to and from the External C2 server uses this frame format. All communication to and from the SMB Beacon named pipe server uses this frame format as well.
 
 > [!NOTE]
-> many high-level languages will use big-endian (also called network-byte) order when they serialize an integer to a stream. Developers should make sure they get this byte order correct when they build their third-party controller and client programs. The 4-byte little-endian byte order is what the SMB Beacon uses to allow another Beacon (and now third-party client) to control it. The External C2 server uses this frame convention to stay consistent with the SMB Beacon.
+> Many high-level languages will use big-endian (also called network-byte) order when they serialize an integer to a stream. Developers should make sure they get this byte order correct when they build their third-party controller and client programs. The 4-byte little-endian byte order is what the SMB Beacon uses to allow another Beacon (and now third-party client) to control it. The External C2 server uses this frame convention to stay consistent with the SMB Beacon.
 
 ### No authentication
 
