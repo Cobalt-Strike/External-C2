@@ -5,7 +5,7 @@ External C2 is a specification to allow third-party programs to act as a communi
 
 ### What is External Command and Control?
 
-Cobalt Strike’s External Command and Control (External C2) interface allows thirdparty programs to act as a communication layer between Cobalt Strike and its Beacon payload.
+[Cobalt Strike’s External Command and Control (External C2)](https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/listener-infrastructure_external-c2.htm) interface allows thirdparty programs to act as a communication layer between Cobalt Strike and its Beacon payload.
 
 ### Architecture
 
